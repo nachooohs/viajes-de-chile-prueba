@@ -29,16 +29,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" aria-current="page" href="http://127.0.0.1:5500/index.html?">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quiénes Somos</a>
+                <a class="nav-link" href="#quienes-somos">Quiénes Somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -48,7 +48,8 @@
  <!-- FIN HEADER -->
 
  <!-- CONTENIDO PRICIPAL -->
-<main>
+<main class="bg-section">
+    <!-- CAROUSEL -->
     <section>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -56,10 +57,10 @@
                 <img src="assets/img/carousel1.jpg" class="d-block w-100 img-fluid" alt="imagen slider 1 ">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="imagen slider 2">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100 img-fluid" alt="imagen slider 2">
               </div>
               <div class="carousel-item">
-                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="imagen slider 3">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100 img-fluid" alt="imagen slider 3">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -72,6 +73,101 @@
             </button>
           </div>
     </section>
+    <!-- FIN CAROUSEL -->
+
+    <!-- SECCION QUIENES SOMOS -->
+    <section class="container py-5" id="quienes-somos">
+        <div class="row">
+            <h2 class="text-center py-3 titulo-somos">QUIÉNES SOMOS</h2>
+            <hr>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <span class="contenedor-icon"><i class="fa-solid fa-plane fa-2x"></i></span>
+                <p class="texto-somos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat facilis nesciunt quibusdam nihil voluptatibus blanditiis consectetur odio rerum praesentium iusto quo repellat, ut sequi nobis, dolorem impedit cumque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam deserunt explicabo repellendus, similique deleniti possimus esse dolores natus labore dolore rerum atque laborum dolor unde corporis! Molestiae, dignissimos ea?</p>
+                
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <span class="contenedor-icon"><i class="fa-sharp fa-solid fa-triangle-exclamation fa-2x"></i></span>
+                <p class="texto-somos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat facilis nesciunt quibusdam nihil voluptatibus blanditiis consectetur odio rerum praesentium iusto quo repellat, ut sequi nobis, dolorem impedit cumque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam deserunt explicabo repellendus, similique deleniti possimus esse dolores natus labore dolore rerum atque laborum dolor unde corporis! Molestiae, dignissimos ea?</p>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <span class="contenedor-icon"><i class="fa-solid fa-map-location-dot fa-2x"></i></span>
+                <p class="texto-somos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed placeat facilis nesciunt quibusdam nihil voluptatibus blanditiis consectetur odio rerum praesentium iusto quo repellat, ut sequi nobis, dolorem impedit cumque sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aperiam deserunt explicabo repellendus, similique deleniti possimus esse dolores natus labore dolore rerum atque laborum dolor unde corporis! Molestiae, dignissimos ea?</p>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCION QUIENES SOMOS -->
+    
+    <!-- DESTACADOS -->
+    <section class="container py-5" id="destacados">
+        <div class="row">
+            <h2 class="titulo-destacados text-center py-3">DESTACADOS</h2>
+            <hr>
+            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                    <img src="assets/img/card1.jpg" class="card-img-top" alt="imagen card 1">
+                    <div class="card-body">
+                      <h5 class="card-title">consectetur adipisicing elit</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime veniam numquam corrupti ipsam, esse ab. Nulla quasi magni voluptatum, reiciendis atque accusamus, cupiditate nisi libero non placeat cumque! Magnam.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                    <img src="assets/img/card2.jpg" class="card-img-top" alt="imagen card 2" >
+                    <div class="card-body">
+                      <h5 class="card-title">consectetur adipisicing elit</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime veniam numquam corrupti ipsam, esse ab. Nulla quasi magni voluptatum, reiciendis atque accusamus, cupiditate nisi libero non placeat cumque! Magnam.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                    <img src="assets/img/card3.jpg" class="card-img-top" alt="imagen card 3" >
+                    <div class="card-body">
+                      <h5 class="card-title">consectetur adipisicing elit</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime veniam numquam corrupti ipsam, esse ab. Nulla quasi magni voluptatum, reiciendis atque accusamus, cupiditate nisi libero non placeat cumque! Magnam.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 py-3">
+                <div class="card">
+                    <img src="assets/img/card4.jpg" class="card-img-top" alt="imagen card 4">
+                    <div class="card-body">
+                      <h5 class="card-title">consectetur adipisicing elit</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores maxime veniam numquam corrupti ipsam, esse ab. Nulla quasi magni voluptatum, reiciendis atque accusamus, cupiditate nisi libero non placeat cumque! Magnam.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN DESTACADOS -->
+
+    <!-- FORMULARIO DE CONTACTO -->
+    
+    <div class="container py-5" id="contacto">
+        <div class="row">
+            <h2 class="text-center titulo-contacto">CONTACTO</h2>
+            <hr>
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <form>
+                    <div class="mb-3">
+                      <label for="nombre" class="form-label">Nombre</label>
+                      <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <!-- FIN FORMULARIO DE CONTACTO -->
 </main>
 <!-- FIN CONTENIDO PRINCIPAL -->
 <footer>

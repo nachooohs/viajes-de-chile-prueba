@@ -1,4 +1,64 @@
 /*GENERAL*/
-
-
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+.bg-section{
+    background-color: #000;
+}
 /*FIN GENERAL*/
+
+/*CAROUSEL*/
+.carousel-item{
+    height: 100vh;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: rgb(223, 39, 39);
+    text-decoration: underline;
+}
+
+/*FIN CAROUSEL*/
+
+/*QUIENES SOMOS*/
+.titulo-somos{
+    color: #fff;
+    font-size: 28px;
+}
+.contenedor-icon{
+    background-color: aqua;
+    width: 100%;
+    display: block;
+    padding: 6px 0px;
+    text-align: center;
+    color: #fff;
+}
+.texto-somos{
+    color: #fff;
+    text-align: justify;
+}
+/*FIN QUIENES SOMOS*/
+
+
+/*DESTACADOS*/
+.titulo-destacados{
+    color: #fff;
+    font-size: 28px;
+}
+.card{
+    background-color: aqua;
+    color: #fff
+}
+/*FIN DESTACADOS*/
+
+
+/*CONTACTO*/
+.form-label{
+    color: #fff;
+}
+.titulo-contacto{
+    color: #fff;
+}
+/*FIN CONTACTO*/
