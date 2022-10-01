@@ -100,10 +100,10 @@
     <!-- DESTACADOS -->
     <section class="container py-5" id="destacados">
         <div class="row">
-            <h2 class="titulo-destacados text-center py-3">DESTACADOS</h2>
+            <h2 class="titulo-destacados text-center py-3"> <strong>DESTACADOS</strong> </h2>
             <hr>
             <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
+                <div class="card text-center">
                     <img src="assets/img/card1.jpg" class="card-img-top" alt="imagen card 1">
                     <div class="card-body">
                       <h5 class="card-title">consectetur adipisicing elit</h5>
@@ -112,7 +112,7 @@
                   </div>
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
+                <div class="card text-center">
                     <img src="assets/img/card2.jpg" class="card-img-top" alt="imagen card 2" >
                     <div class="card-body">
                       <h5 class="card-title">consectetur adipisicing elit</h5>
@@ -121,7 +121,7 @@
                   </div>
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
+                <div class="card text-center">
                     <img src="assets/img/card3.jpg" class="card-img-top" alt="imagen card 3" >
                     <div class="card-body">
                       <h5 class="card-title">consectetur adipisicing elit</h5>
@@ -130,7 +130,7 @@
                   </div>
             </div>
             <div class="col-sm-12 col-md-3 col-lg-3 py-3">
-                <div class="card">
+                <div class="card text-center">
                     <img src="assets/img/card4.jpg" class="card-img-top" alt="imagen card 4">
                     <div class="card-body">
                       <h5 class="card-title">consectetur adipisicing elit</h5>
@@ -143,7 +143,6 @@
     <!-- FIN DESTACADOS -->
 
     <!-- FORMULARIO DE CONTACTO -->
-    
     <div class="container py-5" id="contacto">
         <div class="row">
             <h2 class="text-center titulo-contacto">CONTACTO</h2>
@@ -152,17 +151,17 @@
                 <form>
                     <div class="mb-3">
                       <label for="nombre" class="form-label">Nombre</label>
-                      <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp">
+                      <input type="text" class="form-control" id="Nombre" aria-describedby="emailHelp" required>
                     </div>
                     <div class="mb-3">
                         <label for="asunto" class="form-label">Asunto</label>
-                        <input type="text" class="form-control" id="asunto" aria-describedby="emailHelp">
+                        <input type="text" class="form-control" id="asunto" aria-describedby="emailHelp" required>
                       </div>
                       <div class="mb-3">
                         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                       </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" id="enviar" class="btn btn-primary">Enviar</button>
                   </form>
             </div>
         </div>
@@ -170,8 +169,26 @@
     <!-- FIN FORMULARIO DE CONTACTO -->
 </main>
 <!-- FIN CONTENIDO PRINCIPAL -->
-<footer>
-
+<footer class="container-fluid bg-footer py-3">
+    <div class="row text-center">
+       <div class="col-sm-12 col-md-6 col-lg-6">
+        <h2 class="titulo-footer">VIAJES CHILE</h2>
+       </div>
+       <div class="col-sm-12 col-md-6 col-lg-6 container-icons">
+        <span class="">
+            <a href=""><i class="fa-brands fa-github"></i></a>  
+        </span>
+        <span class="">
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a> 
+        </span>
+        <span class="">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </span>
+        <span class="">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+        </span>
+       </div>
+    </div>
 </footer>
 
 

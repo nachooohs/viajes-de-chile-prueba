@@ -28,7 +28,7 @@ body{
     font-size: 28px;
 }
 .contenedor-icon{
-    background-color: aqua;
+    background-color: #47B5FF;
     width: 100%;
     display: block;
     padding: 6px 0px;
@@ -48,8 +48,12 @@ body{
     font-size: 28px;
 }
 .card{
-    background-color: aqua;
+    background-color: #06283D;
     color: #fff
+}
+.card-title{
+    color: #47B5FF;
+    font-weight: bold;
 }
 /*FIN DESTACADOS*/
 
@@ -61,4 +65,34 @@ body{
 .titulo-contacto{
     color: #fff;
 }
+.btn-primary{
+    background-color: #06283D;
+    border: #06283D solid 1px;
+    padding:8px 25px;
+}
+.btn-primary:hover{
+    background-color: rgb(223, 39, 39)!important;
+    border: solid 1px rgb(223, 39, 39)!important;;
+}
 /*FIN CONTACTO*/
+
+/*FOOTER*/
+.bg-footer{
+    background-color: #06283D;;
+}
+.titulo-footer{
+    color: #fff;
+}
+.container-icons{
+    color: #fff;
+}
+.container-icons span i{
+    font-size: 30px;
+    padding: 8px;
+    background-color: #fff;
+    color: #06283D;
+}
+.container-icons span a i:hover{
+    background-color: #47B5FF;
+}
+/*FIN FOOTER*/
