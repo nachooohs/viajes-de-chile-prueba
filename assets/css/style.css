@@ -96,3 +96,13 @@ body{
     background-color: #47B5FF;
 }
 /*FIN FOOTER*/
+
+/*MEDIA QUERY*/
+
+@media (max-width: 600px) {
+    .carousel-item{
+        height: auto;
+    }
+  }
+
+/*FIN MEDIA QUERY*/
